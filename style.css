@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #e3f9ff;
+}
+
+.heading {
+  text-align: center;
+  font-size: 4rem;
+  margin: 2.5rem 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+.container .calculator {
+  background-color: #3a4452;
+  padding: 1.5rem 1rem;
+  border-radius: 10px;
+}
+.container .calculator .screen {
+  background-color: #242a33;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.container .calculator .screen input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  text-align: right;
+  padding: 2rem 1rem;
+  font-size: 2.8rem;
+}
+.container .calculator .btn {
+  width: 6rem;
+  height: 6rem;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 10px;
+  margin: 1rem;
+  background-color: #3a4452;
+  color: white;
+  cursor: pointer;
+  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.1), 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.container .calculator .btn:hover {
+  box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.2), 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.container .calculator .operator {
+  color: #33ffd8;
+}
+.container .calculator .all-clear {
+  background-color: red;
+}
+.container .calculator .equal {
+  width: 14rem;
+}/*# sourceMappingURL=style.css.map */
