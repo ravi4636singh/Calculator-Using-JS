@@ -14,17 +14,12 @@ body {
   background-color: #e3f9ff;
 }
 
-.heading {
-  text-align: center;
-  font-size: 4rem;
-  margin: 2.5rem 0;
-}
-
 .container {
+  width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2.5rem;
 }
 .container .calculator {
   background-color: #3a4452;
@@ -35,6 +30,7 @@ body {
   background-color: #242a33;
   border-radius: 10px;
   margin-bottom: 1rem;
+  padding: 2rem 1rem;
 }
 .container .calculator .screen input {
   width: 100%;
@@ -43,7 +39,6 @@ body {
   background-color: transparent;
   color: white;
   text-align: right;
-  padding: 2rem 1rem;
   font-size: 2.8rem;
 }
 .container .calculator .btn {
@@ -61,12 +56,10 @@ body {
 .container .calculator .btn:hover {
   box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.2), 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
-.container .calculator .operator {
-  color: #33ffd8;
-}
 .container .calculator .all-clear {
+  width: 14rem;
   background-color: red;
 }
-.container .calculator .equal {
-  width: 14rem;
+.container .calculator .operator {
+  color: #33ffd8;
 }/*# sourceMappingURL=style.css.map */

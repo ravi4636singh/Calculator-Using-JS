@@ -5,7 +5,7 @@ buttons.forEach((btn) => {
     btn.addEventListener('click', (e) => {
         if(e.target.textContent === 'AC'){
             resultScreen.value = ''
-        }else if(e.target.textContent === 'C'){
+        }else if(e.target.textContent === '←'){
             resultScreen.value = resultScreen.value.toString().slice(0, -1)
         }else if(e.target.textContent === '='){
             if(resultScreen.value === ''){
